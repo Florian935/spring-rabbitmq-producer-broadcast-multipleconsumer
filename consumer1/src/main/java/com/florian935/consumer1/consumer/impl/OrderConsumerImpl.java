@@ -14,7 +14,7 @@ import static lombok.AccessLevel.PRIVATE;
 @FieldDefaults(level = PRIVATE, makeFinal = true)
 public class OrderConsumerImpl implements Consumer<Order> {
 
-    String QUEUE_NAME = "florian935.broadcast.consumer1";
+    private static final String QUEUE_NAME = "florian935.broadcast.consumer1";
 
     @Override
     @RabbitListener(queues = QUEUE_NAME)
