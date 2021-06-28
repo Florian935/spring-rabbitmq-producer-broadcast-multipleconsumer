@@ -1,5 +1,6 @@
-package com.florian935.producerbroadcast.domain;
+package com.florian935.consumer1.domain;
 
+import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
